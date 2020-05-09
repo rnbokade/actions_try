@@ -17,8 +17,7 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef DRIVERS_AX5043_INC_FEC_H_
-#define DRIVERS_AX5043_INC_FEC_H_
+
 
 #include <stdint.h>
 #include "rs_utils.h"
@@ -56,4 +55,3 @@ conv_encoder_7_8_7(uint8_t *out, const uint8_t *data, size_t len);
   }
 #endif 
 
-#endif /* DRIVERS_AX5043_INC_FEC_H_ */

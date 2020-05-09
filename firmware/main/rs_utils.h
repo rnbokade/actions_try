@@ -21,13 +21,10 @@
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef DRIVERS_AX5043_INC_RS_UTILS_H_
-#define DRIVERS_AX5043_INC_RS_UTILS_H_
 
 #include <stdint.h>
 #include <stdbool.h>
 #include <string.h>
-#include "ax5043.h"
 
 #define MODFF(x) mod255(x)
 #define MM     (8)
@@ -90,5 +87,3 @@ extern void
 rs_utils_encode(uint8_t *parity, uint8_t *data, size_t len);
 extern int
 rs_utils_decode(uint8_t *data, size_t len);
-
-#endif /* DRIVERS_AX5043_INC_RS_UTILS_H_ */
