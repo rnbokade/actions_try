@@ -1,5 +1,5 @@
-#include "./src/fec.h"
-#include "./src/rs8.h"
+#include "fec.h"
+#include "rs8.h"
 uint8_t packet[200];
 uint8_t data[100];
 void setup()
