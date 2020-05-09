@@ -20,4 +20,4 @@ jobs:
           arduino-cli core update-index
           arduino-cli core install ${{ matrix.arduino-platform }}
       - name: Compile Sketch
-        run: arduino-cli compile --fqbn ${{ matrix.fqbn }} ./firmware/main.ino
+        run: arduino-cli compile --fqbn ${{ matrix.fqbn }} ./firmware/main/main.ino
